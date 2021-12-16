@@ -1,5 +1,6 @@
 <?php
-Ys thong thao 7 nhe';
+Ys thong thao 7 nhe'; tung ngu qua';
+
 require './Controllers/BaseController.php';
 $controllerName = ucfirst(strtolower($_REQUEST['controller'] ?? 'Welcome') .'Controller');
 $actionName = $_REQUEST['action'] ?? 'index';
